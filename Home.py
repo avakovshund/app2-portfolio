@@ -1,17 +1,17 @@
 import streamlit as st
 import pandas
 
-st.set_page_config()#layout="wide")
+st.set_page_config()
 
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photo.jpg", width=600)
+    st.image("images/photo.jpg", width=900)
 
 with col2:
-    st.title("Денчик йоу <3")
+    st.title("йоу <3")
     content = """
-    Hello, I am Denys! I am a chill boy and coder.\n
+    Hello, I am YOU! I am a chill boy and coder.\n
     I graduated with a bachelor's degree in 2022.
     I have worked already with such companies as Google, OpenAI, Meta, Coca-Cola and Sprite.\n
     So give me money."""
